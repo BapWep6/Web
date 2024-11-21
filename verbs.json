@@ -1,0 +1,56 @@
+[
+    {
+        "fr": "brûler",
+        "base": "burn",
+        "past": "burnt",
+        "past_participle": "burnt"
+    },
+    {
+        "fr": "construire",
+        "base": "build",
+        "past": "built",
+        "past_participle": "built"
+    },
+    {
+        "fr": "envoyer",
+        "base": "send",
+        "past": "sent",
+        "past_participle": "sent"
+    },
+    {
+        "fr": "dépenser",
+        "base": "spend",
+        "past": "spent",
+        "past_participle": "spent"
+    },
+    {
+        "fr": "apprendre",
+        "base": "learn",
+        "past": "learnt",
+        "past_participle": "learnt/learned"
+    },
+    {
+        "fr": "prêter",
+        "base": "lend",
+        "past": "lent",
+        "past_participle": "lent"
+    },
+    {
+        "fr": "tirer",
+        "base": "shoot",
+        "past": "shot",
+        "past_participle": "shot"
+    },
+    {
+        "fr": "perdre",
+        "base": "lose",
+        "past": "lost",
+        "past_participle": "lost"
+    },
+    {
+        "fr": "s'asseoir",
+        "base": "sit",
+        "past": "sat",
+        "past_participle": "sat"
+    }
+]
