@@ -1,62 +1,62 @@
 [
     {
-        "fr": "Trouver",
-        "base": "Find",
-        "past": "Found",
-        "past_participle": "Found"
+        "fr": "Saigner",
+        "base": "Bleed",
+        "past": "Bled",
+        "past_participle": "Bled"
     },
     {
-        "fr": "Entendre",
-        "base": "Hear",
-        "past": "Heard",
-        "past_participle": "Heard"
+        "fr": "Nourrir",
+        "base": "Feed",
+        "past": "Fed",
+        "past_participle": "Fed"
     },
     {
-        "fr": "Etendre",
-        "base": "Lay",
-        "past": "Laid",
-        "past_participle": "Laid"
+        "fr": "Sentir",
+        "base": "Feel",
+        "past": "Felt",
+        "past_participle": "Felt"
     },
     {
-        "fr": "Payer",
-        "base": "Pay",
-        "past": "Paid",
-        "past_participle": "Paid"
+        "fr": "Garder",
+        "base": "Keep",
+        "past": "Kept",
+        "past_participle": "Kept"
     },
     {
-        "fr": "Dire",
-        "base": "Say",
-        "past": "Said",
-        "past_participle": "Said"
+        "fr": "Rencontrer",
+        "base": "Meet",
+        "past": "Met",
+        "past_participle": "Met"
     },
     {
-        "fr": "Vendre",
-        "base": "Sell",
-        "past": "Sold",
-        "past_participle": "Sold"
+        "fr": "Dormir",
+        "base": "Sleep",
+        "past": "Slept",
+        "past_participle": "Slept"
     },
     {
-        "fr": "Dire / Raconter",
-        "base": "Tell",
-        "past": "Told",
-        "past_participle": "Told"
+        "fr": "Rêver",
+        "base": "Dream",
+        "past": "Dreamt",
+        "past_participle": "Dreamt/Dreamed"
     },
     {
-        "fr": "Etre debout",
-        "base": "Stand",
-        "past": "Stood",
-        "past_participle": "Stood"
+        "fr": "Signifier/Vouloir dire",
+        "base": "Mean",
+        "past": "Meant",
+        "past_participle": "Meant"
     },
     {
-        "fr": "Comprendre",
-        "base": "Understand",
-        "past": "Understood",
-        "past_participle": "Understood"
+        "fr": "Mener",
+        "base": "Lead",
+        "past": "Led",
+        "past_participle": "Led"
     },
     {
-        "fr": "Gagner",
-        "base": "Win",
-        "past": "Won",
-        "past_participle": "Won"
+        "fr": "Quitter/Partir",
+        "base": "Leave",
+        "past": "Left",
+        "past_participle": "Left"
     }
 ]
