@@ -1,7 +1,7 @@
 let verbs = [];
 let currentVerbIndex = 0;
-let results = []; // Tableau pour stocker les résultats des réponses
-let incorrectVerbs = []; // Tableau pour stocker les verbes incorrects
+let results = [];
+let incorrectVerbs = [];
 
 fetch('verbs.json')
     .then(response => response.json())
@@ -14,35 +14,31 @@ fetch('verbs.json')
 function loadNextVerb() {
     if (currentVerbIndex < verbs.length) {
         const verb = verbs[currentVerbIndex];
-
-        // Afficher le verbe en français
         document.getElementById('verb-fr').textContent = verb.fr;
-
-        // Effacer les champs de réponse
         document.getElementById('base-form').value = '';
         document.getElementById('past-form').value = '';
         document.getElementById('past-participle').value = '';
         document.getElementById('result').textContent = '';
-
-        // Mettre à jour le compteur
         document.getElementById('counter').textContent = `Verbes restants: ${verbs.length - currentVerbIndex}`;
     } else {
-        // Afficher les résultats à la fin
         displayFinalResults();
     }
 }
 
 function checkAnswers() {
     const verb = verbs[currentVerbIndex];
-    const base = document.getElementById('base-form').value.trim();
-    const past = document.getElementById('past-form').value.trim();
-    const pastParticiple = document.getElementById('past-participle').value.trim();
+    const base = document.getElementById('base-form').value.trim().toLowerCase();
+    const past = document.getElementById('past-form').value.trim().toLowerCase();
+    const pastParticiple = document.getElementById('past-participle').value.trim().toLowerCase();
 
     let resultMessage = '';
     let isCorrect = false;
 
-    // Vérifier si toutes les réponses sont correctes
-    if (base === verb.base && past === verb.past && pastParticiple === verb.past_participle) {
+    if (
+        base === verb.base.toLowerCase() &&
+        past === verb.past.toLowerCase() &&
+        pastParticiple === verb.past_participle.toLowerCase()
+    ) {
         resultMessage = 'Bravo, toutes les réponses sont correctes !';
         isCorrect = true;
     } else {
@@ -50,19 +46,12 @@ function checkAnswers() {
                         \nBase verb: ${verb.base}
                         \nPast: ${verb.past}
                         \nPast Participle: ${verb.past_participle}`;
-        // Ajouter le verbe incorrect à la liste des erreurs
         incorrectVerbs.push(verb);
     }
 
     document.getElementById('result').textContent = resultMessage;
-
-    // Stocker le résultat pour affichage final
     results.push({ verb: verb.fr, isCorrect: isCorrect });
-
-    // Passer au verbe suivant
     currentVerbIndex++;
-
-    // Attendre 3 secondes avant de charger le prochain verbe
     setTimeout(loadNextVerb, 3000);
 }
 
@@ -70,22 +59,13 @@ function displayFinalResults() {
     const resultContainer = document.getElementById('result');
     resultContainer.innerHTML = '<h3>Résultats Finaux :</h3>';
     
-    // Afficher les réponses correctes
     results.forEach(result => {
         const verbResult = document.createElement('p');
         verbResult.textContent = result.verb;
-
-        // Appliquer la couleur en fonction de la réussite ou non
-        if (result.isCorrect) {
-            verbResult.style.color = 'green';  // Vert pour réussi
-        } else {
-            verbResult.style.color = 'red';    // Rouge pour incorrect
-        }
-
+        verbResult.style.color = result.isCorrect ? 'green' : 'red';
         resultContainer.appendChild(verbResult);
     });
 
-    // Afficher les verbes incorrects avec leurs bonnes réponses
     if (incorrectVerbs.length > 0) {
         const incorrectSection = document.createElement('div');
         incorrectSection.innerHTML = '<h3>Vous vous êtes trompé sur les verbes suivants :</h3>';
@@ -96,13 +76,12 @@ function displayFinalResults() {
                                          \nBase verb: ${verb.base}
                                          \nPast: ${verb.past}
                                          \nPast Participle: ${verb.past_participle}`;
-            incorrectVerb.style.color = 'red'; // Rouge pour les erreurs
+            incorrectVerb.style.color = 'red';
             incorrectSection.appendChild(incorrectVerb);
         });
 
         resultContainer.appendChild(incorrectSection);
     }
 
-    // Retirer le compteur
     document.getElementById('counter').textContent = '';
 }
