@@ -1,62 +1,98 @@
 [
     {
-        "fr": "Saigner",
-        "base": "Bleed",
-        "past": "Bled",
-        "past_participle": "Bled"
+        "fr": "Frapper",
+        "base": "Beat",
+        "past": "Beat",
+        "past_participle": "Beaten"
     },
     {
-        "fr": "Nourrir",
-        "base": "Feed",
-        "past": "Fed",
-        "past_participle": "Fed"
+        "fr": "Mordre",
+        "base": "Bite",
+        "past": "Bit",
+        "past_participle": "Bitten"
     },
     {
-        "fr": "Sentir",
-        "base": "Feel",
-        "past": "Felt",
-        "past_participle": "Felt"
+        "fr": "Choisir",
+        "base": "Choose",
+        "past": "Chose",
+        "past_participle": "Chosen"
     },
     {
-        "fr": "Garder",
-        "base": "Keep",
-        "past": "Kept",
-        "past_participle": "Kept"
+        "fr": "Manger",
+        "base": "Eat",
+        "past": "Ate",
+        "past_participle": "Eaten"
     },
     {
-        "fr": "Rencontrer",
-        "base": "Meet",
-        "past": "Met",
-        "past_participle": "Met"
+        "fr": "Conduire",
+        "base": "Drive",
+        "past": "Drove",
+        "past_participle": "Driven"
     },
     {
-        "fr": "Dormir",
-        "base": "Sleep",
-        "past": "Slept",
-        "past_participle": "Slept"
+        "fr": "Tomber",
+        "base": "Fall",
+        "past": "Fell",
+        "past_participle": "Fallen"
     },
     {
-        "fr": "Rêver",
-        "base": "Dream",
-        "past": "Dreamt",
-        "past_participle": "Dreamt/Dreamed"
+        "fr": "Interdire",
+        "base": "Forbid",
+        "past": "Forbade",
+        "past_participle": "Forbidden"
     },
     {
-        "fr": "Signifier/Vouloir dire",
-        "base": "Mean",
-        "past": "Meant",
-        "past_participle": "Meant"
+        "fr": "Oublier",
+        "base": "Forget",
+        "past": "Forgot",
+        "past_participle": "Forgotten"
     },
     {
-        "fr": "Mener",
-        "base": "Lead",
-        "past": "Led",
-        "past_participle": "Led"
+        "fr": "Pardonner",
+        "base": "Forgive",
+        "past": "Forgave",
+        "past_participle": "Forgiven"
     },
     {
-        "fr": "Quitter/Partir",
-        "base": "Leave",
-        "past": "Left",
-        "past_participle": "Left"
+        "fr": "Geler",
+        "base": "Freeze",
+        "past": "Froze",
+        "past_participle": "Frozen"
+    },
+    {
+        "fr": "Donner",
+        "base": "Give",
+        "past": "Gave",
+        "past_participle": "Given"
+    },
+    {
+        "fr": "(Se) Cacher",
+        "base": "Hide",
+        "past": "Hid",
+        "past_participle": "Hidden"
+    },
+    {
+        "fr": "Parler",
+        "base": "Speak",
+        "past": "Spoke",
+        "past_participle": "Spoken"
+    },
+    {
+        "fr": "Voler/Dérober",
+        "base": "Steal",
+        "past": "Stole",
+        "past_participle": "Stolen"
+    },
+    {
+        "fr": "Faire du cheval/vélo",
+        "base": "Ride",
+        "past": "Rode",
+        "past_participle": "Ridden"
+    },
+    {
+        "fr": "Écrire",
+        "base": "Write",
+        "past": "Wrote",
+        "past_participle": "Written"
     }
 ]
