@@ -1,98 +1,140 @@
 [
     {
+        "fr": "Être",
+        "base": "Be",
+        "past": "Was/Were",
+        "past_participle": "Been"
+    },
+    {
+        "fr": "Avoir",
+        "base": "Have",
+        "past": "Had",
+        "past_participle": "Had"
+    },
+    {
+        "fr": "Faire",
+        "base": "Do",
+        "past": "Did",
+        "past_participle": "Done"
+    },
+    {
+        "fr": "Fabriquer",
+        "base": "Make",
+        "past": "Made",
+        "past_participle": "Made"
+    },
+    {
+        "fr": "Aller",
+        "base": "Go",
+        "past": "Went",
+        "past_participle": "Gone"
+    },
+    {
+        "fr": "Obtenir",
+        "base": "Get",
+        "past": "Got",
+        "past_participle": "Gotten/Got"
+    },
+    {
+        "fr": "Parier",
+        "base": "Bet",
+        "past": "Bet",
+        "past_participle": "Bet"
+    },
+    {
+        "fr": "Éclater",
+        "base": "Burst",
+        "past": "Burst",
+        "past_participle": "Burst"
+    },
+    {
+        "fr": "Coûter",
+        "base": "Cost",
+        "past": "Cost",
+        "past_participle": "Cost"
+    },
+    {
+        "fr": "Couper",
+        "base": "Cut",
+        "past": "Cut",
+        "past_participle": "Cut"
+    },
+    {
         "fr": "Frapper",
-        "base": "Beat",
-        "past": "Beat",
-        "past_participle": "Beaten"
+        "base": "Hit",
+        "past": "Hit",
+        "past_participle": "Hit"
     },
     {
-        "fr": "Mordre",
-        "base": "Bite",
-        "past": "Bit",
-        "past_participle": "Bitten"
+        "fr": "Blesser",
+        "base": "Hurt",
+        "past": "Hurt",
+        "past_participle": "Hurt"
     },
     {
-        "fr": "Choisir",
-        "base": "Choose",
-        "past": "Chose",
-        "past_participle": "Chosen"
+        "fr": "Laisser",
+        "base": "Let",
+        "past": "Let",
+        "past_participle": "Let"
     },
     {
-        "fr": "Manger",
-        "base": "Eat",
-        "past": "Ate",
-        "past_participle": "Eaten"
+        "fr": "Mettre",
+        "base": "Put",
+        "past": "Put",
+        "past_participle": "Put"
     },
     {
-        "fr": "Conduire",
-        "base": "Drive",
-        "past": "Drove",
-        "past_participle": "Driven"
+        "fr": "Quitter",
+        "base": "Quit",
+        "past": "Quit",
+        "past_participle": "Quit"
     },
     {
-        "fr": "Tomber",
-        "base": "Fall",
-        "past": "Fell",
-        "past_participle": "Fallen"
+        "fr": "Lire",
+        "base": "Read",
+        "past": "Read",
+        "past_participle": "Read"
     },
     {
-        "fr": "Interdire",
-        "base": "Forbid",
-        "past": "Forbade",
-        "past_participle": "Forbidden"
+        "fr": "Fermer",
+        "base": "Shut",
+        "past": "Shut",
+        "past_participle": "Shut"
     },
     {
-        "fr": "Oublier",
-        "base": "Forget",
-        "past": "Forgot",
-        "past_participle": "Forgotten"
+        "fr": "Étaler",
+        "base": "Spread",
+        "past": "Spread",
+        "past_participle": "Spread"
     },
     {
-        "fr": "Pardonner",
-        "base": "Forgive",
-        "past": "Forgave",
-        "past_participle": "Forgiven"
+        "fr": "Commencer",
+        "base": "Begin",
+        "past": "Began",
+        "past_participle": "Begun"
     },
     {
-        "fr": "Geler",
-        "base": "Freeze",
-        "past": "Froze",
-        "past_participle": "Frozen"
+        "fr": "Boire",
+        "base": "Drink",
+        "past": "Drank",
+        "past_participle": "Drunk"
     },
     {
-        "fr": "Donner",
-        "base": "Give",
-        "past": "Gave",
-        "past_participle": "Given"
+        "fr": "Sonner",
+        "base": "Ring",
+        "past": "Rang",
+        "past_participle": "Rung"
     },
     {
-        "fr": "(Se) Cacher",
-        "base": "Hide",
-        "past": "Hid",
-        "past_participle": "Hidden"
+        "fr": "Chanter",
+        "base": "Sing",
+        "past": "Sang",
+        "past_participle": "Sung"
     },
     {
-        "fr": "Parler",
-        "base": "Speak",
-        "past": "Spoke",
-        "past_participle": "Spoken"
-    },
-    {
-        "fr": "Voler/Dérober",
-        "base": "Steal",
-        "past": "Stole",
-        "past_participle": "Stolen"
-    },
-    {
-        "fr": "Faire du cheval/vélo",
-        "base": "Ride",
-        "past": "Rode",
-        "past_participle": "Ridden"
-    },
-    {
-        "fr": "Écrire",
-        "base": "Write",
-        "past": "Wrote",
-        "past_participle": "Written"
+        "fr": "Nager",
+        "base": "Swim",
+        "past": "Swam",
+        "past_participle": "Swum"
     }
 ]
