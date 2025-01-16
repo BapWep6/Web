@@ -18,7 +18,7 @@
         "past_participle": "Done"
     },
     {
-        "fr": "Fabriquer",
+        "fr": "Faire/Fabriquer",
         "base": "Make",
         "past": "Made",
         "past_participle": "Made"
@@ -30,7 +30,7 @@
         "past_participle": "Gone"
     },
     {
-        "fr": "Obtenir",
+        "fr": "Avoir/Obtenir",
         "base": "Get",
         "past": "Got",
         "past_participle": "Gotten/Got"
@@ -72,19 +72,19 @@
         "past_participle": "Hurt"
     },
     {
-        "fr": "Laisser",
-        "base": "Let",
-        "past": "Let",
-        "past_participle": "Let"
-    },
-    {
         "fr": "Mettre",
         "base": "Put",
         "past": "Put",
         "past_participle": "Put"
     },
     {
-        "fr": "Quitter",
+        "fr": "Laisser (permettre)",
+        "base": "Let",
+        "past": "Let",
+        "past_participle": "Let"
+    },
+    {
+        "fr": "Quitter/Abandonner",
         "base": "Quit",
         "past": "Quit",
         "past_participle": "Quit"
@@ -102,39 +102,99 @@
         "past_participle": "Shut"
     },
     {
-        "fr": "Étaler",
+        "fr": "Étaler/Se répandre",
         "base": "Spread",
         "past": "Spread",
         "past_participle": "Spread"
     },
     {
-        "fr": "Commencer",
-        "base": "Begin",
-        "past": "Began",
-        "past_participle": "Begun"
+        "fr": "Brûler",
+        "base": "Burn",
+        "past": "Burnt",
+        "past_participle": "Burnt"
     },
     {
-        "fr": "Boire",
-        "base": "Drink",
-        "past": "Drank",
-        "past_participle": "Drunk"
+        "fr": "Construire",
+        "base": "Build",
+        "past": "Built",
+        "past_participle": "Built"
     },
     {
-        "fr": "Sonner",
-        "base": "Ring",
-        "past": "Rang",
-        "past_participle": "Rung"
+        "fr": "Envoyer",
+        "base": "Send",
+        "past": "Sent",
+        "past_participle": "Sent"
     },
     {
-        "fr": "Chanter",
-        "base": "Sing",
-        "past": "Sang",
-        "past_participle": "Sung"
+        "fr": "Passer (le temps)/Dépenser",
+        "base": "Spend",
+        "past": "Spent",
+        "past_participle": "Spent"
     },
     {
-        "fr": "Nager",
-        "base": "Swim",
-        "past": "Swam",
-        "past_participle": "Swum"
+        "fr": "Apprendre",
+        "base": "Learn",
+        "past": "Learnt/Learned",
+        "past_participle": "Learnt/Learned"
+    },
+    {
+        "fr": "Prêter",
+        "base": "Lend",
+        "past": "Lent",
+        "past_participle": "Lent"
+    },
+    {
+        "fr": "Tirer",
+        "base": "Shoot",
+        "past": "Shot",
+        "past_participle": "Shot"
+    },
+    {
+        "fr": "Perdre",
+        "base": "Lose",
+        "past": "Lost",
+        "past_participle": "Lost"
+    },
+    {
+        "fr": "S’asseoir",
+        "base": "Sit",
+        "past": "Sat",
+        "past_participle": "Sat"
+    },
+    {
+        "fr": "Acheter",
+        "base": "Buy",
+        "past": "Bought",
+        "past_participle": "Bought"
+    },
+    {
+        "fr": "Apporter",
+        "base": "Bring",
+        "past": "Brought",
+        "past_participle": "Brought"
+    },
+    {
+        "fr": "Se battre",
+        "base": "Fight",
+        "past": "Fought",
+        "past_participle": "Fought"
+    },
+    {
+        "fr": "Penser",
+        "base": "Think",
+        "past": "Thought",
+        "past_participle": "Thought"
+    },
+    {
+        "fr": "Attraper",
+        "base": "Catch",
+        "past": "Caught",
+        "past_participle": "Caught"
+    },
+    {
+        "fr": "Enseigner",
+        "base": "Teach",
+        "past": "Taught",
+        "past_participle": "Taught"
     }
 ]
