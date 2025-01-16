@@ -196,5 +196,59 @@
         "base": "Teach",
         "past": "Taught",
         "past_participle": "Taught"
+    },
+    {
+        "fr": "Commencer",
+        "base": "Begin",
+        "past": "Began",
+        "past_participle": "Begun"
+    },
+    {
+        "fr": "Boire",
+        "base": "Drink",
+        "past": "Drank",
+        "past_participle": "Drunk"
+    },
+    {
+        "fr": "Sonner",
+        "base": "Ring",
+        "past": "Rang",
+        "past_participle": "Rung"
+    },
+    {
+        "fr": "Chanter",
+        "base": "Sing",
+        "past": "Sang",
+        "past_participle": "Sung"
+    },
+    {
+        "fr": "Nager",
+        "base": "Swim",
+        "past": "Swam",
+        "past_participle": "Swum"
+    },
+    {
+        "fr": "Supporter/Mettre au monde",
+        "base": "Bear",
+        "past": "Bore",
+        "past_participle": "Born"
+    },
+    {
+        "fr": "Jurer",
+        "base": "Swear",
+        "past": "Swore",
+        "past_participle": "Sworn"
+    },
+    {
+        "fr": "Déchirer",
+        "base": "Tear",
+        "past": "Tore",
+        "past_participle": "Torn"
+    },
+    {
+        "fr": "Porter (un vêtement)",
+        "base": "Wear",
+        "past": "Wore",
+        "past_participle": "Worn"
     }
 ]
