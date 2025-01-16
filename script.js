@@ -59,7 +59,9 @@ function checkAnswers() {
                         \nBase verb: ${verb.base}
                         \nPast: ${verb.past}
                         \nPast Participle: ${verb.past_participle}`;
-        incorrectVerbs.push(verb);
+        if (!incorrectVerbs.some(v => v.fr === verb.fr)) {
+            incorrectVerbs.push(verb);
+        }
     }
 
     document.getElementById('result').textContent = resultMessage;
