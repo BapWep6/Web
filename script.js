@@ -2,6 +2,7 @@ let verbs = [];
 let currentVerbIndex = 0;
 let results = [];
 let incorrectVerbs = [];
+let isSecondRound = false;
 
 fetch('verbs.json')
     .then(response => response.json())
@@ -25,7 +26,11 @@ function loadNextVerb() {
         document.getElementById('result').textContent = '';
         document.getElementById('counter').textContent = `Verbes restants: ${verbs.length - currentVerbIndex}`;
     } else {
-        displayFinalResults();
+        if (!isSecondRound && incorrectVerbs.length > 0) {
+            startSecondRound();
+        } else {
+            displayFinalResults();
+        }
     }
 }
 
@@ -60,6 +65,15 @@ function checkAnswers() {
     document.getElementById('result').textContent = resultMessage;
     results.push({ verb: verb.fr, isCorrect: isCorrect });
     currentVerbIndex++;
+    setTimeout(loadNextVerb, 3000);
+}
+
+function startSecondRound() {
+    verbs = shuffleArray(incorrectVerbs);
+    incorrectVerbs = [];
+    currentVerbIndex = 0;
+    isSecondRound = true;
+    document.getElementById('result').textContent = 'Deuxième tour : correction des erreurs.';
     setTimeout(loadNextVerb, 3000);
 }
 
