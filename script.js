@@ -6,10 +6,14 @@ let incorrectVerbs = [];
 fetch('verbs.json')
     .then(response => response.json())
     .then(data => {
-        verbs = data;
+        verbs = shuffleArray(data);
         loadNextVerb();
     })
     .catch(error => console.error('Erreur de chargement du fichier JSON', error));
+
+function shuffleArray(array) {
+    return array.sort(() => Math.random() - 0.5);
+}
 
 function loadNextVerb() {
     if (currentVerbIndex < verbs.length) {
@@ -31,14 +35,18 @@ function checkAnswers() {
     const past = document.getElementById('past-form').value.trim().toLowerCase();
     const pastParticiple = document.getElementById('past-participle').value.trim().toLowerCase();
 
+    const baseAnswers = verb.base.toLowerCase().split('/');
+    const pastAnswers = verb.past.toLowerCase().split('/');
+    const pastParticipleAnswers = verb.past_participle.toLowerCase().split('/');
+
+    let isCorrectBase = baseAnswers.includes(base);
+    let isCorrectPast = pastAnswers.includes(past);
+    let isCorrectPastParticiple = pastParticipleAnswers.includes(pastParticiple);
+
     let resultMessage = '';
     let isCorrect = false;
 
-    if (
-        base === verb.base.toLowerCase() &&
-        past === verb.past.toLowerCase() &&
-        pastParticiple === verb.past_participle.toLowerCase()
-    ) {
+    if (isCorrectBase && isCorrectPast && isCorrectPastParticiple) {
         resultMessage = 'Bravo, toutes les réponses sont correctes !';
         isCorrect = true;
     } else {
